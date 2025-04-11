@@ -9,7 +9,7 @@ bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://ucik:ucik@cluster0.0l3r8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db_name = os.getenv("DB_NAME", "rvt") #bisa diganti sesuai kebutuhan
+db_name = os.getenv("DB_NAME", "leo") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001979450020"))
@@ -26,7 +26,7 @@ batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#111 #112 #rvtboy #rvtgirl #rvtspill #rvtstory").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#111 #112 #boy #girl #spill #story").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
@@ -34,28 +34,28 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @randomvirtualfess harap join terlebih dahulu ke channel dan grup cpf yang ada dibawah, jika sudah tekan coba lagi atau /help.
+Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @leomenfessx harap join terlebih dahulu ke channel dan grup leo yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
 Seputar informasi, pertanyaan dan top up coin Rp. 1000 / 200 coin hubungi @xvilance
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention}
 
-RVT Menfess bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim menfess, gunakan hastag dibawah untuk mengirim pesan:
+leo autopost bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pap/video randommu, gunakan hastag dibawah untuk mengirim pesan:
 
-#rvtboy : untuk mencari teman jika kamu seorang cowo.
-#rvtgirl : untuk mencari teman jika kamu seorang cewe.
-#rvtspill : untuk spill sesuatu.
-#rvtstory : untuk berbagi cerita/pengalaman.
+#boy : untuk mencari teman jika kamu seorang cowo.
+#girl : untuk mencari teman jika kamu seorang cewe.
+#spill : untuk spill sesuatu.
+#story : untuk berbagi cerita/pengalaman.
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
-#rvtboy : untuk mencari teman jika kamu seorang cowo.
-#rvtirl : untuk mencari teman jika kamu seorang cewe.
-#rvtspill : untuk spill sesuatu
-#rvtstory : untuk berbagi cerita/pengalaman.
+#boy : untuk mencari teman jika kamu seorang cowo.
+#girl : untuk mencari teman jika kamu seorang cewe.
+#spill : untuk spill sesuatu
+#story : untuk berbagi cerita/pengalaman.
 
-jangan lupa join @RVTOfficial
+jangan lupa join @RGCIndo
 """)
