@@ -13,7 +13,7 @@ db_name = os.getenv("DB_NAME", "leo") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001991260453"))
-channel_2 = int(os.getenv("CHANNEL_2", "-1002320116756")) #untuk group comentar user
+channel_2 = int(os.getenv("CHANNEL_2", "-1001841428029")) #untuk group comentar user
 channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
 # =========================================================== #
 
