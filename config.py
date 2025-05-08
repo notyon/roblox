@@ -34,7 +34,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @leomenfessx harap join terlebih dahulu ke channel dan grup leo yang ada dibawah, jika sudah tekan coba lagi atau /help.
+Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @leobaseid harap join terlebih dahulu ke channel dan grup leo yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
 Seputar informasi, pertanyaan dan top up coin Rp. 1000 / 200 coin hubungi @xvilance
 """)
