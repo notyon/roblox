@@ -20,10 +20,10 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
 id_admin = int(os.getenv("ID_ADMIN", "1613540894"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "5"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "40"))
 # =========================================================== #
 
 hastag = os.getenv("HASTAG", "#111 #112 #boy #girl #spill #story").replace(" ", "|").lower()
