@@ -20,7 +20,7 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
 id_admin = int(os.getenv("ID_ADMIN", "1613540894"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
 # =========================================================== #
 
 biaya_kirim = int(os.getenv("BIAYA_KIRIM", "40"))
@@ -36,7 +36,7 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 pesan_join = os.getenv("PESAN_JOIN", """
 Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @leobaseid harap join terlebih dahulu ke channel dan grup leo yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
-Seputar informasi & pertanyaan hubungi @xvilance
+Seputar informasi & pertanyaan hubungi @leoservicebot
 """)
 start_msg = os.getenv("START_MSG", """
 Halo {mention}
@@ -57,5 +57,5 @@ gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 #spill : untuk spill sesuatu
 #story : untuk berbagi cerita/pengalaman.
 
-jangan lupa join @RGCIndo
+powered by @leoservicebot
 """)
