@@ -60,5 +60,6 @@ gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 #spill : untuk spill sesuatu.
 #story : untuk berbagi cerita/pengalaman.
 #ask : untuk bertanya ke grup.
+
 powered by @leoservicebot
 """)
