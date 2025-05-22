@@ -20,13 +20,13 @@ channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
 id_admin = int(os.getenv("ID_ADMIN", "1613540894"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "3"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "40"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "100"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#111 #112 #boy #girl #spill #story").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#111 #112 #boy #girl #spill #ask #pap #story").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
@@ -43,19 +43,22 @@ Halo {mention}
 
 leobase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pap/video randommu, gunakan hastag dibawah untuk mengirim pesan:
 
+#pap : untuk kirim pap/video random.
 #boy : untuk mencari teman jika kamu seorang cowo.
 #girl : untuk mencari teman jika kamu seorang cewe.
 #spill : untuk spill sesuatu.
 #story : untuk berbagi cerita/pengalaman.
+#ask : untuk bertanya ke grup.
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 {mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
 
+#pap : untuk kirim pap/video random.
 #boy : untuk mencari teman jika kamu seorang cowo.
 #girl : untuk mencari teman jika kamu seorang cewe.
-#spill : untuk spill sesuatu
+#spill : untuk spill sesuatu.
 #story : untuk berbagi cerita/pengalaman.
-
+#ask : untuk bertanya ke grup.
 powered by @leoservicebot
 """)
