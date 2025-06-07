@@ -17,7 +17,7 @@ channel_2 = int(os.getenv("CHANNEL_2", "-1001841428029")) #untuk group comentar 
 channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
 # =========================================================== #
 
-id_admin = int(os.getenv("ID_ADMIN", "1613540894"))
+id_admin = int(os.getenv("ID_ADMIN", "732448606"))
 # =========================================================== #
 
 batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
