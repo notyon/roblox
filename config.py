@@ -9,12 +9,12 @@ bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://ucik:ucik@cluster0.0l3r8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db_name = os.getenv("DB_NAME", "leo1") #bisa diganti sesuai kebutuhan
+db_name = os.getenv("DB_NAME", "anon") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "-1001991260453"))
-channel_2 = int(os.getenv("CHANNEL_2", "-1001841428029")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "-1002068950974"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1001809070827"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001721745890")) #untuk group comentar user
+channel_log = int(os.getenv("CHANNEL_LOG", "-1002774686922"))
 # =========================================================== #
 
 id_admin = int(os.getenv("ID_ADMIN", "732448606"))
