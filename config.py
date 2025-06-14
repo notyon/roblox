@@ -14,7 +14,7 @@ db_name = os.getenv("DB_NAME", "anon") #bisa diganti sesuai kebutuhan
 
 channel_1 = int(os.getenv("CHANNEL_1", "-1001809070827"))
 channel_2 = int(os.getenv("CHANNEL_2", "-1001721745890")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "-1002774686922"))
+channel_log = int(os.getenv("CHANNEL_LOG", "-1001637096480"))
 # =========================================================== #
 
 id_admin = int(os.getenv("ID_ADMIN", "732448606"))
