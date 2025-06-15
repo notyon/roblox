@@ -34,14 +34,14 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-Kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @leobaseid harap join terlebih dahulu ke channel dan grup leo yang ada dibawah, jika sudah tekan coba lagi atau /help.
+kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @anonbaseid harap join terlebih dahulu ke channel dan grup yang ada dibawah, jika sudah tekan coba lagi atau /help.
 
 Seputar informasi & pertanyaan hubungi @leoservicebot
 """)
 start_msg = os.getenv("START_MSG", """
-Halo {mention}
+halo {mention}
 
-leobase bot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pap/video randommu, gunakan hastag dibawah untuk mengirim pesan:
+@anonbasebot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pap/video randommu, gunakan hastag dibawah untuk mengirim pesan:
 
 #pap : untuk kirim pap/video random.
 #boy : untuk mencari teman jika kamu seorang cowo.
@@ -61,5 +61,5 @@ gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
 #story : untuk berbagi cerita/pengalaman.
 #ask : untuk bertanya ke grup.
 
-powered by @leoservicebot
+powered by @topbasetelegram
 """)
