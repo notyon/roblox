@@ -9,24 +9,24 @@ bot_token = os.getenv("BOT_TOKEN", "")
 # =========================================================== #
 
 db_url = os.getenv("DB_URL", "mongodb+srv://ucik:ucik@cluster0.0l3r8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db_name = os.getenv("DB_NAME", "anon") #bisa diganti sesuai kebutuhan
+db_name = os.getenv("DB_NAME", "roblox") #bisa diganti sesuai kebutuhan
 # =========================================================== #
 
-channel_1 = int(os.getenv("CHANNEL_1", "-1001809070827"))
-channel_2 = int(os.getenv("CHANNEL_2", "-1001721745890")) #untuk group comentar user
-channel_log = int(os.getenv("CHANNEL_LOG", "-1001637096480"))
+channel_1 = int(os.getenv("CHANNEL_1", "-1001741133131"))
+channel_2 = int(os.getenv("CHANNEL_2", "-1001841428029")) #untuk group comentar user
+channel_log = int(os.getenv("CHANNEL_LOG", "-1001780451521"))
 # =========================================================== #
 
 id_admin = int(os.getenv("ID_ADMIN", "732448606"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", "2"))
+batas_kirim = int(os.getenv("BATAS_KIRIM", "10"))
 # =========================================================== #
 
-biaya_kirim = int(os.getenv("BIAYA_KIRIM", "100"))
+biaya_kirim = int(os.getenv("BIAYA_KIRIM", "20"))
 # =========================================================== #
 
-hastag = os.getenv("HASTAG", "#111 #112 #boy #girl #spill #ask #pap #story").replace(" ", "|").lower()
+hastag = os.getenv("HASTAG", "#111 #112 #random #menfess #jj #collab").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.getenv("PIC_BOY", "https://telegra.ph/file/c67bd36023648dc777bd9.jpg")
@@ -34,32 +34,18 @@ pic_girl = os.getenv("PIC_GIRL", "https://telegra.ph/file/cb885bcbf5081dbd45f27.
 # =========================================================== #
 
 pesan_join = os.getenv("PESAN_JOIN", """
-kamu tidak dapat menggunakan bot 🙅, untuk mengirim pesan ke @anonbaseid harap join terlebih dahulu ke channel dan grup yang ada dibawah, jika sudah tekan coba lagi atau /help.
-
-Seputar informasi & pertanyaan hubungi @leoservicebot
+hi, join dulu ke channel yang ada dibawah untuk bisa kirim pesan ke channel @robloxbaseid
 """)
 start_msg = os.getenv("START_MSG", """
 halo {mention}
+pesan, pap dan video yang kalian kirim di @robloxautobot akan otomatis di post ke @robloxbaseid
 
-@anonbasebot adalah bot promote yang dapat digunakan untuk mencari teman, pacar, dll serta dapat digunakan untuk mengirim pap/video randommu, gunakan hastag dibawah untuk mengirim pesan:
-
-#pap : untuk kirim pap/video random.
-#boy : untuk mencari teman jika kamu seorang cowo.
-#girl : untuk mencari teman jika kamu seorang cewe.
-#spill : untuk spill sesuatu.
-#story : untuk berbagi cerita/pengalaman.
-#ask : untuk bertanya ke grup.
+❌ Spam
+❌ Porn
 """)
 
 gagalkirim_msg = os.getenv("GAGAL_KIRIM", """
-{mention} pesanmu gagal terkirim 🙅, harap gunakan hastag : 
+{mention} pesanmu gagal terkirim 🙅 periksa hastag atau ketik /help.
 
-#pap : untuk kirim pap/video random.
-#boy : untuk mencari teman jika kamu seorang cowo.
-#girl : untuk mencari teman jika kamu seorang cewe.
-#spill : untuk spill sesuatu.
-#story : untuk berbagi cerita/pengalaman.
-#ask : untuk bertanya ke grup.
-
-powered by @topbasetelegram
+gc roblox keren @robloxgrupindonesia
 """)
